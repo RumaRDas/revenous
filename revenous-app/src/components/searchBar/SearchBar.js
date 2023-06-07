@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./searchBar.css";
 function SearchBar() {
   const sortByOptions = {
     "Best Match": "best_match",
@@ -15,14 +15,14 @@ function SearchBar() {
   }
   return (
     <div className="search-bar">
-      <div className="searchbar-sort-option">
+      <div className="search-bar-sort-option">
         <ul>{renderSortByOption()}</ul>
       </div>
-      <div className="searchbar-fields">
+      <div className="search-bar-fields">
         <input placeholder="Search Businesses" />
         <input placeholder="Where?" />
       </div>
-      <div className="searchbar=submit">
+      <div className="search-bar-submit">
         <a> Lets Go</a>
       </div>
     </div>
