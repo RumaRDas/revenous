@@ -1,14 +1,15 @@
 import React from "react";
 import "./business.css";
-import Pizza from "../../assets/pizza.jpg";
+
 function Business() {
   const business = {
-    imageSrc: Pizza,
-    name: "Pizzeria",
-    address: "1010 Paddington way",
+    imageSrc:
+      "https://content.codecademy.com/programs/react/ravenous/pizza.jpg",
+    name: "MarginOtto Pizzeria",
+    address: "1010 Paddington Way",
     city: "Flavortown",
     state: "NY",
-    ZipCode: "10101",
+    zipCode: "10101",
     category: "Italian",
     rating: 4.5,
     reviewCount: 90,
